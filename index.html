@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117515609-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117515609-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Fish</title>
+    <style>
+        html, body {
+            overflow: hidden;
+        }
+
+        hml, body, div, canvas {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body onload=" main(); ">
+    <canvas id="canvas"></canvas>
+    <script src="./Utils.js"></script>
+    <script src="./SceneObjectBase.js"></script>
+    <script src="./Bubble.js"></script>
+    <script src="./Fish.js"></script>
+    <script src="./SpriteManager.js"></script>
+    <script src="./Scene.js"></script>
+    <script>
+        function main() {
+            var scene = new Scene();
+            scene.init();
+        }
+    </script>
+</body>
+</html>
