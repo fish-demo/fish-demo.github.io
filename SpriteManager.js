@@ -67,7 +67,7 @@ SpriteManager.prototype.init = function (callback) {
         },
         "background": {
             srcs: [
-               "./cute-Fish-tank-backgrounds.jpg"
+               "./ws_Fish_tank_water_1024x768.jpg"
             ],
             complete: false
         },

@@ -81,7 +81,7 @@ Fish.prototype.calcRadius = function() {
 };
 
 Fish.prototype.processBubbles = function() {
-    if(Math.random() > 0.05) return;
+    if(Math.random() > 0.01) return;
 
     var bubble = new Bubble();
     var x = this.v.x <= 0.0 ?  this.c.v.x : this.c.v.x + this.c.r * 2.0;
